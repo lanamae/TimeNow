@@ -1,0 +1,175 @@
+@media screen and (max-width: 500px){
+
+    .main{
+        .hero{
+            width: 100%;
+            height: 200vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 70px 1fr 1fr;
+            background: linear-gradient(to bottom, #ffffff 50%, #87ceeb 50%);
+            
+    
+            .nav{
+                grid-column: 1/2;
+                grid-row: 1/2;
+                display: flex;
+                justify-content: flex-start; 
+                align-items: center;
+                
+                margin: 10px;
+                padding: 30px 10px;
+    
+                .logo{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 20px;
+                }
+    
+                ul li{
+                    display: none;
+                    list-style: none;
+                    padding-right: 20px;
+    
+                    a{
+                        text-decoration: none;
+                        color: $fontColor;
+                        font-weight: 500;
+                        font-size: 18px;
+                    }
+    
+                }
+                
+    
+                button{
+                    display: none;
+                    width: 180px;
+                    height: 50px;
+                    background: $btnTxtColor;
+                    border-style: none;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    font-size: 17px;
+                    font-weight: 700;
+                    font-kerning:normal;
+                    margin-left: auto;
+                    cursor: pointer;
+                    
+    
+                }
+                
+                .toggle-menu{
+                    display:block;
+                    margin-left: auto;
+                    cursor: pointer;
+    
+                    span{
+                        display: block;
+                        content: " ";
+                        width: 20px;
+                        height: 3px;
+                        background: #000;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .left{
+                grid-column: 1/2;
+                grid-row: 2/3;
+                width: 100%;
+                height: 100vh;
+                padding: 0px 50px;
+    
+                .content{
+                    width: 80%;
+                    height: auto;
+                    margin-top: 10px;
+                    
+    
+                    h1{
+                        font-size: 45px;
+                        font-weight: 800px;
+                        color: $btnTxtColor;
+                        padding-bottom: 20px; 
+                    }
+    
+                    p{
+                        color: $fontColor;
+                        padding-bottom: 20px;
+                        line-height: 30px;
+                        font-size: 18px;
+    
+                    }
+    
+                    button{
+                        width: 180px;
+                        height: 50px;
+                        background: $btnTxtColor;
+                        border-style: none;
+                        border-radius: 5px;
+                        color: #ffffff;
+                        font-size: 17px;
+                        font-weight: 700;
+                        font-kerning:normal;
+                        
+                        cursor: pointer;
+                    }
+    
+                    .viewDemo{
+                        text-decoration: none;
+                        color: $fontColor;
+                        font-weight: 700;
+                        padding-left: 20px;
+                        padding-bottom: 20px;
+                    }
+    
+                    .shield{
+                        width: 18px;
+                        height: 18px;
+                        margin-top: 20px;
+                        margin-right: 10px;
+                    }
+                    span{
+                        color: $fontColor;
+                        margin-left: 10px;
+                    }
+    
+                    .learnMore{
+                        color: $fontColor;
+                        font-weight: 700;
+                        padding-left: 10px;
+                        padding-bottom: 20px;
+    
+                    }
+                }
+                
+            }
+    
+    
+            .right{
+                grid-column: 1/2;
+                grid-row: 3/4;
+                width: 100%;
+                height: 100vh;
+                margin-left: auto;
+               
+                // padding: 60px;
+                justify-content: center;
+                align-items: center;  
+    
+                .mockup{
+                    width: 250px;
+                    height: 283px;  
+                    
+                }
+    
+            }
+    
+            
+        }
+    }
+
+
+
+
+}

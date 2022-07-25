@@ -7,6 +7,7 @@
 
 @import "_pricing-page.scss";
 @import "_tablet.scss";
+@import "_mobile.scss";
 
 // variables
 $bluebg: #87ceeb;
@@ -56,6 +57,7 @@ $TxtColor: #6f4dc0;
                 }
 
             }
+            
 
             button{
                 width: 180px;
@@ -71,6 +73,19 @@ $TxtColor: #6f4dc0;
                 cursor: pointer;
                 
 
+            }
+
+            .toggle-menu{
+                display:block;
+
+                span{
+                    display: block;
+                    content: " ";
+                    width: 20px;
+                    height: 3px;
+                    background: #000;
+                    margin-bottom: 5px;
+                }
             }
         }
         .left{
@@ -376,3 +391,4 @@ $TxtColor: #6f4dc0;
 
 
 @import "_tablet.scss";
+@import "_mobile.scss";

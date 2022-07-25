@@ -1134,6 +1134,169 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .main .hero {
+    width: 100%;
+    height: 200vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 70px 1fr 1fr;
+        grid-template-rows: 70px 1fr 1fr;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #87ceeb));
+    background: linear-gradient(to bottom, #ffffff 50%, #87ceeb 50%);
+  }
+  .main .hero .nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+  .main .hero .nav .logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+  .main .hero .nav ul li {
+    display: none;
+    list-style: none;
+    padding-right: 20px;
+  }
+  .main .hero .nav ul li a {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .main .hero .nav button {
+    display: none;
+    width: 180px;
+    height: 50px;
+    background: #32127a;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .main .hero .nav .toggle-menu {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .main .hero .nav .toggle-menu span {
+    display: block;
+    content: " ";
+    width: 20px;
+    height: 3px;
+    background: #000;
+    margin-bottom: 5px;
+  }
+  .main .hero .left {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 50px;
+  }
+  .main .hero .left .content {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .main .hero .left .content h1 {
+    font-size: 45px;
+    font-weight: 800px;
+    color: #32127a;
+    padding-bottom: 20px;
+  }
+  .main .hero .left .content p {
+    color: #757575;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .main .hero .left .content button {
+    width: 180px;
+    height: 50px;
+    background: #32127a;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    cursor: pointer;
+  }
+  .main .hero .left .content .viewDemo {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .main .hero .left .content .shield {
+    width: 18px;
+    height: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .main .hero .left .content span {
+    color: #757575;
+    margin-left: 10px;
+  }
+  .main .hero .left .content .learnMore {
+    color: #757575;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .main .hero .right {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero .right .mockup {
+    width: 250px;
+    height: 283px;
+  }
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -1204,6 +1367,19 @@
           font-kerning: normal;
   margin-left: auto;
   cursor: pointer;
+}
+
+.main .hero .nav .toggle-menu {
+  display: block;
+}
+
+.main .hero .nav .toggle-menu span {
+  display: block;
+  content: " ";
+  width: 20px;
+  height: 3px;
+  background: #000;
+  margin-bottom: 5px;
 }
 
 .main .hero .left {
@@ -2219,6 +2395,169 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main .hero {
+    width: 100%;
+    height: 200vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 70px 1fr 1fr;
+        grid-template-rows: 70px 1fr 1fr;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #87ceeb));
+    background: linear-gradient(to bottom, #ffffff 50%, #87ceeb 50%);
+  }
+  .main .hero .nav {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+  .main .hero .nav .logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+  .main .hero .nav ul li {
+    display: none;
+    list-style: none;
+    padding-right: 20px;
+  }
+  .main .hero .nav ul li a {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .main .hero .nav button {
+    display: none;
+    width: 180px;
+    height: 50px;
+    background: #32127a;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .main .hero .nav .toggle-menu {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .main .hero .nav .toggle-menu span {
+    display: block;
+    content: " ";
+    width: 20px;
+    height: 3px;
+    background: #000;
+    margin-bottom: 5px;
+  }
+  .main .hero .left {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 50px;
+  }
+  .main .hero .left .content {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .main .hero .left .content h1 {
+    font-size: 45px;
+    font-weight: 800px;
+    color: #32127a;
+    padding-bottom: 20px;
+  }
+  .main .hero .left .content p {
+    color: #757575;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .main .hero .left .content button {
+    width: 180px;
+    height: 50px;
+    background: #32127a;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    cursor: pointer;
+  }
+  .main .hero .left .content .viewDemo {
+    text-decoration: none;
+    color: #757575;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .main .hero .left .content .shield {
+    width: 18px;
+    height: 18px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .main .hero .left .content span {
+    color: #757575;
+    margin-left: 10px;
+  }
+  .main .hero .left .content .learnMore {
+    color: #757575;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .main .hero .right {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero .right .mockup {
+    width: 250px;
+    height: 283px;
   }
 }
 /*# sourceMappingURL=style.css.map */
