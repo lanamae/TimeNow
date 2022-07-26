@@ -1134,7 +1134,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) and (min-width: 480px) {
   .main .hero {
     width: 100%;
     height: 1227px;
@@ -2598,7 +2598,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) and (min-width: 480px) {
   .main .hero {
     width: 100%;
     height: 1227px;
