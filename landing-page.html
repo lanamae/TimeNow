@@ -20,6 +20,13 @@
 </head>
 <body>
     <div class="main">
+        <div class="menu-bar">
+            <div id="close" onclick="closeMenu()">&times;</div>
+            <ul>
+                <li><a href="#">Feature</a></li>
+                <li><a href="pricing-page.html">Pricing</a></li>
+             </ul>  
+        </div>
         <!-- Hero Section -->
         <div class="hero">
 
@@ -32,7 +39,7 @@
                  </ul>   
                  <button>Start Scheduling</button> 
                  
-                 <div class="toggle-menu">
+                 <div class="toggle-menu" onclick="showMenu()">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -149,4 +156,6 @@
     </div>
     
 </body>
+<script src="script.js">
+</script>    
 </html>
