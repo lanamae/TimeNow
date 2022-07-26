@@ -1205,7 +1205,7 @@
   .main .hero .nav .toggle-menu span {
     display: block;
     content: " ";
-    width: 40px;
+    width: 30px;
     height: 3px;
     background: #000;
     margin-bottom: 5px;
@@ -2669,7 +2669,7 @@
   .main .hero .nav .toggle-menu span {
     display: block;
     content: " ";
-    width: 40px;
+    width: 30px;
     height: 3px;
     background: #000;
     margin-bottom: 5px;
