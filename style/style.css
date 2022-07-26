@@ -1137,7 +1137,7 @@
   }
 }
 
-@media screen and (max-width: 720px) and (min-width: 480px) {
+@media screen and (max-width: 480px) and (min-width: 480px) {
   .main .menu-bar {
     display: none;
     width: 50%;
@@ -2642,7 +2642,7 @@
   }
 }
 
-@media screen and (max-width: 720px) and (min-width: 480px) {
+@media screen and (max-width: 480px) and (min-width: 480px) {
   .main .menu-bar {
     display: none;
     width: 50%;
