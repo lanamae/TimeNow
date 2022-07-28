@@ -5,7 +5,7 @@ $btnTxtColor: #32127a;
 $cyanColor: #e0ffff;
 $scndTextcolor: #01796f;
 $TxtColor: #6f4dc0;
-@media screen and (max-width: 480px)and (max-height: 720px){
+@media screen and (max-width: 500px)and (max-height: 720px){
 
     .main{
 
@@ -61,7 +61,7 @@ $TxtColor: #6f4dc0;
             height: 1227px;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 70px 737px 520px;
+            grid-template-rows: 70px 637px 520px;
             background: linear-gradient(to bottom, #ffffff 55%, #87ceeb 45%);
             
             
