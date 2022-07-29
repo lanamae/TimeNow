@@ -1,12 +1,16 @@
-const toggle = document.querySelector('.toogle.menu')
-const menuBar = document.querySelector('.menu-bar')
+const toggle = document.querySelector('.toggle-menu')
 const close = document.querySelector('#close')
+const menuBar = document.querySelector('.menu-bar')
 
-const showMenu = () =>{
-    menuBar.style.display = 'block';
-    
-}
 
-const closeMenu = () =>{
-    menuBar.style.display = 'none';
-}
+toggle.addEventListener('click',  () =>{
+    console.log('event is working')
+    menuBar.classList.add('show')
+    menuBar.classList.remove('hide')
+})
+
+close.addEventListener('click',  () =>{
+    console.log('event is working')
+    menuBar.classList.remove('show')
+    menuBar.classList.add('hide')
+})
