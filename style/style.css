@@ -1592,18 +1592,20 @@
   }
   .main-pricing .menu-bar {
     display: block;
-    width: 50%;
-    height: 645px;
-    margin-left: 250px;
-    background: #000;
     position: fixed;
+    width: 300px;
+    height: 720px;
+    margin-left: 1050px;
+    background: #000;
     padding: 30px 0px;
+    -webkit-transition: margin 0.5s ease-in-out;
+    transition: margin 0.5s ease-in-out;
   }
   .main-pricing .menu-bar #close {
     color: #fff;
     font-size: 40px;
-    padding-left: 20px;
     cursor: pointer;
+    padding-left: 20px;
   }
   .main-pricing .menu-bar ul {
     margin-top: 50px;
@@ -1623,6 +1625,18 @@
     color: #fff;
     font-weight: 500;
     font-size: 18px;
+  }
+  .main-pricing .menu-bar.show {
+    margin-left: 250px;
+  }
+  .main-pricing .menu-bar.hide {
+    margin-left: 1050px;
+  }
+  .main-pricing .menu-bar.hide #close {
+    visibility: hidden;
+  }
+  .main-pricing .menu-bar.hide ul {
+    visibility: hidden;
   }
   .main-pricing .navbar {
     -ms-grid-column: 1;
@@ -3530,18 +3544,20 @@
   }
   .main-pricing .menu-bar {
     display: block;
-    width: 50%;
-    height: 645px;
-    margin-left: 250px;
-    background: #000;
     position: fixed;
+    width: 300px;
+    height: 720px;
+    margin-left: 1050px;
+    background: #000;
     padding: 30px 0px;
+    -webkit-transition: margin 0.5s ease-in-out;
+    transition: margin 0.5s ease-in-out;
   }
   .main-pricing .menu-bar #close {
     color: #fff;
     font-size: 40px;
-    padding-left: 20px;
     cursor: pointer;
+    padding-left: 20px;
   }
   .main-pricing .menu-bar ul {
     margin-top: 50px;
@@ -3561,6 +3577,18 @@
     color: #fff;
     font-weight: 500;
     font-size: 18px;
+  }
+  .main-pricing .menu-bar.show {
+    margin-left: 250px;
+  }
+  .main-pricing .menu-bar.hide {
+    margin-left: 1050px;
+  }
+  .main-pricing .menu-bar.hide #close {
+    visibility: hidden;
+  }
+  .main-pricing .menu-bar.hide ul {
+    visibility: hidden;
   }
   .main-pricing .navbar {
     -ms-grid-column: 1;

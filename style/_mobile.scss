@@ -481,25 +481,30 @@ $TxtColor: #6f4dc0;
         
         .menu-bar{
             display: block;
-            width: 50%;
-            height: 645px;
-            
-            margin-left: 250px;
-            background: #000;
             position: fixed;
+            width: 300px;
+            height: 720px;
+            margin-left: 1050px;
+            
+            background: #000;
+            
             padding: 30px 0px;
+            transition: margin 0.5s ease-in-out;
+           
+
+           
             
 
             #close{
-               color: #fff;
-               font-size: 40px;
-               padding-left: 20px;
-               cursor: pointer;
+                color: #fff;
+                font-size: 40px;
+                cursor: pointer;
+                padding-left: 20px;
+                
             }
-
             ul{ 
                 margin-top: 50px;
-            
+                
             
             
                 li{
@@ -525,6 +530,27 @@ $TxtColor: #6f4dc0;
                 }
             }
         }
+
+        .menu-bar.show{
+            margin-left: 250px;
+        }
+
+        .menu-bar.hide{
+
+            margin-left: 1050px;
+
+            #close{
+                
+                visibility: hidden;
+                
+            }
+            ul{ 
+                
+                visibility: hidden;
+            
+    
+                }
+            }
 
         .navbar{
             grid-column: 1/3;
