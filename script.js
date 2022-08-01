@@ -10,7 +10,7 @@ toggle.addEventListener('click',  () =>{
 })
 
 close.addEventListener('click',  () =>{
-    console.log('event is working')
+    console.log('closeevent is working')
     menuBar.classList.remove('show')
     menuBar.classList.add('hide')
 })
