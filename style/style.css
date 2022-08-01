@@ -20,42 +20,6 @@
 
 .main-pricing .menu-bar {
   display: none;
-  width: 50%;
-  height: 645px;
-  margin-left: 250px;
-  background: #000;
-  position: fixed;
-  padding: 30px 0px;
-}
-
-.main-pricing .menu-bar #close {
-  color: #fff;
-  font-size: 40px;
-  padding-left: 20px;
-  cursor: pointer;
-}
-
-.main-pricing .menu-bar ul {
-  margin-top: 50px;
-}
-
-.main-pricing .menu-bar ul li {
-  display: block;
-  list-style: none;
-  padding: 30px;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-.main-pricing .menu-bar ul li:hover {
-  background: #757575;
-}
-
-.main-pricing .menu-bar ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
 }
 
 .main-pricing .navbar {
@@ -881,10 +845,11 @@
     transition: margin 0.5s ease-in-out;
   }
   .main-pricing .menu-bar #close {
+    position: absolute;
     color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 60px;
     cursor: pointer;
+    margin-left: 20px;
   }
   .main-pricing .menu-bar ul {
     margin-top: 50px;
@@ -908,14 +873,8 @@
   .main-pricing .menu-bar.show {
     margin-left: 250px;
   }
-  .main-pricing .menu-bar.show #close {
-    color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
-    cursor: pointer;
-  }
   .main-pricing .menu-bar.hide {
-    margin-left: 1050px;
+    margin-left: 1000px;
   }
   .main-pricing .menu-bar.hide #close {
     visibility: hidden;
@@ -2452,10 +2411,11 @@
     transition: margin 0.5s ease-in-out;
   }
   .main-pricing .menu-bar #close {
+    position: absolute;
     color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 60px;
     cursor: pointer;
+    margin-left: 20px;
   }
   .main-pricing .menu-bar ul {
     margin-top: 50px;
@@ -2479,14 +2439,8 @@
   .main-pricing .menu-bar.show {
     margin-left: 250px;
   }
-  .main-pricing .menu-bar.show #close {
-    color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
-    cursor: pointer;
-  }
   .main-pricing .menu-bar.hide {
-    margin-left: 1050px;
+    margin-left: 1000px;
   }
   .main-pricing .menu-bar.hide #close {
     visibility: hidden;
@@ -4410,10 +4364,11 @@
     transition: margin 0.5s ease-in-out;
   }
   .main-pricing .menu-bar #close {
+    position: absolute;
     color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 60px;
     cursor: pointer;
+    margin-left: 20px;
   }
   .main-pricing .menu-bar ul {
     margin-top: 50px;
@@ -4437,14 +4392,8 @@
   .main-pricing .menu-bar.show {
     margin-left: 250px;
   }
-  .main-pricing .menu-bar.show #close {
-    color: #fff;
-    font-size: 40px;
-    padding-left: 20px;
-    cursor: pointer;
-  }
   .main-pricing .menu-bar.hide {
-    margin-left: 1050px;
+    margin-left: 1000px;
   }
   .main-pricing .menu-bar.hide #close {
     visibility: hidden;

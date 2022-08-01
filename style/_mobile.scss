@@ -496,11 +496,12 @@ $TxtColor: #6f4dc0;
             
 
             #close{
+                position: absolute;
                 color: #fff;
-                font-size: 40px;
-                
-                padding-left: 20px;
+                font-size: 60px;
                 cursor: pointer;
+                margin-left: 20px;
+                
             }
             ul{ 
                 margin-top: 50px;
@@ -533,19 +534,11 @@ $TxtColor: #6f4dc0;
 
         .menu-bar.show{
             margin-left: 250px;
-
-            #close{
-                color: #fff;
-                font-size: 40px;
-                
-                padding-left: 20px;
-                cursor: pointer;
-            }
         }
 
         .menu-bar.hide{
 
-            margin-left: 1050px;
+            margin-left: 1000px;
 
             #close{
                 
@@ -558,8 +551,8 @@ $TxtColor: #6f4dc0;
             
     
                 }
-        }
-
+            }
+        
         .navbar{
             grid-column: 1/3;
             grid-row: 1/2;
