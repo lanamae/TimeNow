@@ -498,9 +498,9 @@ $TxtColor: #6f4dc0;
             #close{
                 color: #fff;
                 font-size: 40px;
-                cursor: pointer;
-                padding-left: 20px;
                 
+                padding-left: 20px;
+                cursor: pointer;
             }
             ul{ 
                 margin-top: 50px;
@@ -511,7 +511,7 @@ $TxtColor: #6f4dc0;
                     display: block;
                     list-style: none;
                     padding: 30px;
-                    transition: 0.3s ease-in-out;
+                    transition: margin 0.5s ease-in;
 
                     &:hover{
                         background: $fontColor;
@@ -533,6 +533,14 @@ $TxtColor: #6f4dc0;
 
         .menu-bar.show{
             margin-left: 250px;
+
+            #close{
+                color: #fff;
+                font-size: 40px;
+                
+                padding-left: 20px;
+                cursor: pointer;
+            }
         }
 
         .menu-bar.hide{
